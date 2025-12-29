@@ -80,4 +80,4 @@ plt.show()
 
 # 保存预测结果
 res=pd.DataFrame({'timestamp':future_idx,'predicted_power':y_pred})
-res.to_csv('future_72h_prediction.csv',index=False)
+res.to_csv('future_week_prediction.csv',index=False)
